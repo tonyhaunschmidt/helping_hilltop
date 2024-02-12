@@ -1,10 +1,12 @@
 import HomepageHero from "@/components/HomepageHero";
+import WelcomeSection from "@/components/WelcomeSection";
 import Image from "next/image";
 
 export default function Page() {
   return (
     <div>
       <HomepageHero />
+      <WelcomeSection />
       {/* <Container>
         <Intro />
         {heroPost && (
