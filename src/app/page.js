@@ -1,4 +1,7 @@
+import FacebookSection from "@/components/FacebookSection";
 import HomepageHero from "@/components/HomepageHero";
+import MapSection from "@/components/MapSection";
+import QuicklinkSection from "@/components/QuicklinksSection";
 import WelcomeSection from "@/components/WelcomeSection";
 import Image from "next/image";
 
@@ -7,6 +10,9 @@ export default function Page() {
     <div>
       <HomepageHero />
       <WelcomeSection />
+      <QuicklinkSection />
+      <MapSection />
+      <FacebookSection />
       {/* <Container>
         <Intro />
         {heroPost && (

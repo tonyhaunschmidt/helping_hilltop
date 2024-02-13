@@ -7,7 +7,7 @@ export default function WelcomeSection() {
     <section className="pt-20 pb-12 min-h-[750px]">
       <Container>
         <Image
-          className="2xl:w-[500px] 2xl:h-[600px] w-[400px] h-[500px] mr-10 mb-5 object-cover float-left"
+          className="2xl:w-[500px] rounded-xl 2xl:h-[600px] w-[400px] h-[500px] mr-10 mb-5 object-cover float-left"
           src={maintextImage}
           alt="Main text Image"
         />
