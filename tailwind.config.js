@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         logo_green: "#67bc45",
         logo_grey: "#3f4446",
+        dark_green: "#529637",
         light_green: "#46bd9e",
         bg_green: "#e0f1d9",
       },

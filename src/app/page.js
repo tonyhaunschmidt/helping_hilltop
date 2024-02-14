@@ -3,7 +3,6 @@ import HomepageHero from "@/components/HomepageHero";
 import MapSection from "@/components/MapSection";
 import QuicklinkSection from "@/components/QuicklinksSection";
 import WelcomeSection from "@/components/WelcomeSection";
-import Image from "next/image";
 
 export default function Page() {
   return (
