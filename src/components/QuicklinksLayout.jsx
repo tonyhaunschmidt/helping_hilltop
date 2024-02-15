@@ -2,8 +2,8 @@ import Container from "./Container";
 import QuicklinkCard from "./QuicklinksCard";
 //Images
 import shopImage from "../../public/img/shop_ql.jpg";
-import donationImage from "../../public/img/shop_ql.jpg";
-import facebookImage from "../../public/img/shop_ql.jpg";
+import donationImage from "../../public/img/donation_ql.jpg";
+import facebookImage from "../../public/img/facebook_ql.jpg";
 
 export default function QuicklinkLayout() {
   const quicklinks = [
@@ -35,14 +35,14 @@ export default function QuicklinkLayout() {
 
   return (
     <Container>
-      <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 2xl:gap-5">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-2 xl:gap-6 2xl:gap-8">
         <div className="">
           <QuicklinkCard card={quicklinks[0]} />
         </div>
         <div className="">
           <QuicklinkCard card={quicklinks[1]} />
         </div>
-        <div className="col-span-2 lg:px-0 px-28 lg:col-span-1">
+        <div className="sm:col-span-2 lg:px-0 md:px-28 lg:col-span-1">
           <QuicklinkCard card={quicklinks[2]} />
         </div>
       </div>

@@ -8,8 +8,13 @@ export default function FacebookSection() {
         <div className="w-full absolute bottom-0 h-1/2 bg-bg_green"></div>
       </div>
       <Container>
-        <h1 className="text-[35px] font-bold text-center text-logo_green">
-          FOLLOW US ON FACEBOOK
+        <h1 className="text-[40px] mb-4 font-bold text-center text-logo_green">
+          <a
+            href="https://www.facebook.com/profile.php?id=100092229692407"
+            target="_blank"
+          >
+            - FOLLOW US ON FACEBOOK -
+          </a>
         </h1>
       </Container>
       <FacebookLayout />

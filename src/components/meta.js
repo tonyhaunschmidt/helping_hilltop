@@ -36,6 +36,12 @@ export default function Meta() {
         // content={`A statically generated blog example using Next.js and ${CMS_NAME}.`}
       />
       {/* <meta property="og:image" content={HOME_OG_IMAGE_URL} /> */}
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+        href="https://fonts.googleapis.com/css2?family=Iceland&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet"
+      ></link>
     </Head>
   );
 }
