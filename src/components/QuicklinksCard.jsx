@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function QuicklinkCard({ card }) {
   return (
     <a href={card.link} target={card.target}>
-      <div className="group h-full rounded-xl relative border-2 border-white overflow-hidden hover:shadow-md hover:shadow-gray-500 shadow-lg shadow-gray-500 ease-in-out duration-300 transition-all">
+      <div className="group h-full rounded-xl relative border-2 border-logo_green overflow-hidden hover:shadow-md hover:shadow-gray-500 shadow-lg shadow-gray-500 ease-in-out duration-300 transition-all">
         <Image
           className="absolute w-full h-full object-cover group-hover:scale-105 ease-in-out duration-300 transition-all"
           src={card.image.img}

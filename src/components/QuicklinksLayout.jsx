@@ -1,7 +1,7 @@
 import Container from "./Container";
 import QuicklinkCard from "./QuicklinksCard";
 //Images
-import shopImage from "../../public/img/shop_ql.jpg";
+import wishlistImage from "../../public/img/wishlist_ql.jpg";
 import donationImage from "../../public/img/donation_ql.jpg";
 import facebookImage from "../../public/img/facebook_ql.jpg";
 
@@ -9,19 +9,19 @@ export default function QuicklinkLayout() {
   const quicklinks = [
     {
       titleFirst: "View our",
-      titleSecond: "SHOP",
-      subtext: "",
-      image: { img: shopImage, alt: "Shop Quicklink Image" },
-      link: "",
-      target: "",
+      titleSecond: "WISHLIST",
+      subtext:
+        "See our Amazon wishlist and order items that we'll bring to Hilltop",
+      image: { img: wishlistImage, alt: "Wishlist Quicklink Image" },
+      link: "https://www.amazon.co.uk/hz/wishlist/ls/KK6M9TP0QAHR?ref_=wl_share&fbclid=IwAR3i1_uIjaEZwrKgQD_mi0f50lEmkhxagioiLxDw7wPqJ693Oq-TF1O9UGk",
+      target: "_blank",
     },
     {
       titleFirst: "Make a",
       titleSecond: "DONATION",
-      subtext: "",
+      subtext: "Find out how to donate and see how we spend the proceeds",
       image: { img: donationImage, alt: "Donation Quicklink Image" },
-      link: "",
-      target: "",
+      link: "/make_a_donation",
     },
     {
       titleFirst: "Follow us on",
@@ -35,7 +35,7 @@ export default function QuicklinkLayout() {
 
   return (
     <Container>
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-2 xl:gap-6 2xl:gap-8">
+      <div className="grid sm:grid-cols-2 text- lg:grid-cols-3 gap-2 xl:gap-6 2xl:gap-8">
         <div className="">
           <QuicklinkCard card={quicklinks[0]} />
         </div>

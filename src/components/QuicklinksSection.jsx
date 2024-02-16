@@ -3,12 +3,12 @@ import QuicklinkLayout from "./QuicklinksLayout";
 
 export default function QuicklinkSection() {
   return (
-    <section className="pt-10 pb-16 relative border-t-2 border-t-dark_green">
+    <section className="pt-16 pb-4 relative">
       <div className="absolute inset-0 z-[-2]">
-        <div className="w-full h-1/2 bg-bg_green"></div>
+        <div className="w-full absolute bottom-0 h-1/2 bg-bg_green"></div>
       </div>
       <Container>
-        <h1 className="text-[40px] mb-4 font-bold text-center text-logo_green">
+        <h1 className="text-[40px] mb-7 font-bold text-center text-logo_green">
           - HOW YOU CAN HELP HILLTOP -
         </h1>
       </Container>

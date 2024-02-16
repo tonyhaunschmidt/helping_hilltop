@@ -8,6 +8,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        visual_bg: "url('/public/img/letter_img.jpg')",
+      },
       colors: {
         logo_green: "#67bc45",
         logo_grey: "#3f4446",

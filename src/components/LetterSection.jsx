@@ -1,19 +1,20 @@
 import Image from "next/image";
-import maintextImage from "../../public/img/maintext_image.jpg";
+import letterImage from "../../public/img/letter_img.jpg";
 import Container from "./Container";
 
-export default function WelcomeSection() {
+export default function LetterSection() {
   return (
-    <section className="pt-6 pb-32 min-h-[750px] relative">
-      <div className="absolute inset-0 z-[-2] pt-32 pb-20">
-        <div className="h-full mx-auto container pl-44 pr-12">
+    <section className="pt-10 pb-24 relative">
+      <div className="absolute inset-0 z-[-2] pt-28 pb-12">
+        <div className="absolute h-[400px] w-full top-0 bg-bg_green"></div>
+        <div className="h-full mx-auto container relative z-10 pl-44 pr-12">
           <div className="w-full h-full rounded-xl shadow-lg bg-white shadow-gray-500 border-logo_green border-2"></div>
         </div>
       </div>
       <Container>
         <Image
-          className="2xl:w-[500px] rounded-2xl shadow-md shadow-gray-500 border-2 border-logo_green 2xl:h-[600px] w-[400px] h-[500px] mr-14 mb-10 object-cover float-left"
-          src={maintextImage}
+          className="2xl:w-[500px] rounded-2xl shadow-lg shadow-gray-500 border-2 border-dark_green 2xl:h-[600px] w-[400px] h-[500px] mr-14 mb-10 object-cover float-left"
+          src={letterImage}
           alt="Main text Image"
         />
         {/* title */}
@@ -23,9 +24,9 @@ export default function WelcomeSection() {
           </h1>
           <div className="bg-logo_green mx-auto rounded-sm w-full h-2"></div>
         </div> */}
-        <div className="pl-40 pt-28 pr-4 mt-8">
+        <div className="pl-40 pt-24 pr-4 mt-8">
           <p className="text-logo_green font-bold pr-4 text-center underline text-[20px]">
-            - A MESSAGE FROM VIVIENNE -
+            - A Message From Vivienne -
           </p>
           <div className="text-[18px] [&>*]:mt-8">
             {/* configure a prose */}
@@ -71,11 +72,6 @@ export default function WelcomeSection() {
           <p className="text-logo_green mt-8 font-bold text-[20px]">
             Vivienne Hannah
           </p>
-          <a className="w-fit rounded-full block" href="/">
-            <div className="mt-10 rounded-full shadow-sm shadow-gray-500 w-fit bg-white border-2 border-logo_green text-logo_green px-6 py-2 hover:bg-logo_green hover:text-white ease-in-out duration-300 transition-all">
-              <p className="text-[14px] font-semibold">FIND OUT MORE</p>
-            </div>
-          </a>
         </div>
       </Container>
     </section>
