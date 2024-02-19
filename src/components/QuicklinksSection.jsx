@@ -3,7 +3,7 @@ import QuicklinkLayout from "./QuicklinksLayout";
 
 export default function QuicklinkSection() {
   return (
-    <section className="pt-16 pb-4 relative">
+    <section className="pt-16 pb-12 relative">
       <div className="absolute inset-0 z-[-2]">
         <div className="w-full absolute bottom-0 h-1/2 bg-bg_green"></div>
       </div>
