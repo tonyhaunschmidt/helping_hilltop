@@ -4,8 +4,8 @@ import Container from "./Container";
 
 export default function LetterSection() {
   return (
-    <section className="pt-10 pb-24 relative">
-      <div className="absolute inset-0 z-[-2] pt-28 pb-12">
+    <section className="pt-10 pb-40 relative">
+      <div className="absolute inset-0 z-[-2] pt-28 pb-28">
         <div className="absolute h-[400px] w-full top-0 bg-bg_green"></div>
         <div className="h-full mx-auto container relative z-10 pl-44 pr-12">
           <div className="w-full h-full rounded-xl shadow-lg bg-white shadow-gray-500 border-logo_green border-2"></div>

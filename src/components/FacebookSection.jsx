@@ -3,7 +3,7 @@ import FacebookLayout from "./FacebookLayout";
 
 export default function FacebookSection() {
   return (
-    <section className="py-10 relative">
+    <section className="py-12 relative">
       <div className="absolute inset-0 z-[-2]">
         <div className="w-full absolute bottom-0 h-1/2 bg-bg_green"></div>
       </div>

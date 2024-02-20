@@ -25,6 +25,13 @@ export default function WhoWeAreSection() {
             efficiently, and that is why we ultimately decided to launch Helping
             Hilltop. We strive to make a positive change in all our pursuits.
           </p>
+          <p className="text-[18px] mt-6">
+            <q className="font-bold text-[22px] italic">
+              try to be a rainbow in someones cloud
+            </q>
+            <br />
+            Maya Angelou
+          </p>
           <a className="w-fit mx-auto rounded-full block" href="/about_us">
             <div className="mt-10 rounded-full shadow-sm shadow-gray-500 w-fit bg-white border-2 border-logo_green text-logo_green px-6 py-2 hover:bg-logo_green hover:border-white hover:text-white ease-in-out duration-300 transition-all">
               <p className="text-[14px] font-semibold">FIND OUT MORE</p>
