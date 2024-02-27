@@ -16,8 +16,13 @@ export default function WhoWeAreSection() {
       <Container>
         <div className="lg:px-36">
           <h1 className="text-[40px] font-bold text-center">- WHO WE ARE -</h1>
-          <h2 className="text-[25px] mt-2 font-bold">Our Roots</h2>
           <p className="text-[18px] mt-4">
+            Our Charity does blah blah blah blah blah blah blah blah blah blah
+            blah blah blah blah blah blah blah blah blah blah blah blah blah
+            blah blah blah blah blah blah blah blah blah blah blah blah blah
+          </p>
+          <h2 className="text-[25px] mt-4 font-bold">Our Roots</h2>{" "}
+          <p className="text-[18px] mt-2">
             Our strength lies not only in the words we stand by, but most
             importantly in the actions of our initiatives. From the moment we
             started out work in 2000 with Fabian, we understood that by working
@@ -27,10 +32,10 @@ export default function WhoWeAreSection() {
           </p>
           <p className="text-[18px] mt-6">
             <q className="font-bold text-[22px] italic">
-              try to be a rainbow in someones cloud
+              Try to be a Rainbow in Someones Cloud
             </q>
             <br />
-            Maya Angelou
+            -Maya Angelou
           </p>
           <a className="w-fit mx-auto rounded-full block" href="/about_us">
             <div className="mt-10 rounded-full shadow-sm shadow-gray-500 w-fit bg-white border-2 border-logo_green text-logo_green px-6 py-2 hover:bg-logo_green hover:border-white hover:text-white ease-in-out duration-300 transition-all">

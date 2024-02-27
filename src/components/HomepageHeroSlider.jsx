@@ -20,7 +20,7 @@ export default function HomepageHeroSlider() {
     pauseOnFocus: false,
     pauseOnHover: false,
     fade: true,
-    speed: 6000,
+    speed: 12000,
     slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [
