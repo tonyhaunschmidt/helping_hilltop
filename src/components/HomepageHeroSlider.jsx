@@ -20,7 +20,7 @@ export default function HomepageHeroSlider() {
     pauseOnFocus: false,
     pauseOnHover: false,
     fade: true,
-    speed: 12000,
+    speed: 6000,
     slidesToShow: 1,
     slidesToScroll: 1,
     responsive: [
@@ -37,7 +37,7 @@ export default function HomepageHeroSlider() {
     <Slider {...sliderSettings}>
       {heroImages.map((image, index) => (
         <Image
-          className="w-screen h-screen min-h-[600px] brightness-95 object-cover"
+          className="w-screen h-screen min-h-[600px] object-cover"
           key={index}
           src={image}
           alt="hero image"

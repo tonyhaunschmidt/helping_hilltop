@@ -6,7 +6,7 @@ import visualBG from "../../public/img/visual_bg.jpg";
 
 export default function VisualSection() {
   return (
-    <section className="pt-10 border-y-2 text-center text-white border-y-logo_green shadow-md shadow-gray-500 pb-10 relative">
+    <section className="pt-10 text-center text-white pb-10 relative">
       {/* <ParallaxProvider>
         <ParralaxBG />
       </ParallaxProvider> */}

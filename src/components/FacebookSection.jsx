@@ -8,14 +8,16 @@ export default function FacebookSection() {
         <div className="w-full absolute bottom-0 h-1/2 bg-bg_green"></div>
       </div>
       <Container>
-        <h1 className="text-[40px] mb-4 font-bold text-center text-logo_green">
-          <a
-            href="https://www.facebook.com/profile.php?id=100092229692407"
-            target="_blank"
-          >
-            - FOLLOW US ON FACEBOOK -
-          </a>
-        </h1>
+        <Container>
+          <div className="mb-8 items-center text-center">
+            <h1 className="leading-tight">
+              <span className="text-[20px]">FOLLOW OUR</span>
+              <br />
+              <span className="text-[55px] font-black">SOCIALS</span>
+            </h1>
+            <div className="h-2 mt-1 w-[100px] mx-auto rounded-full bg-logo_green"></div>
+          </div>
+        </Container>
       </Container>
       <FacebookLayout />
     </section>

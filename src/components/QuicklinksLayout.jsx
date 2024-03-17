@@ -4,11 +4,12 @@ import QuicklinkCard from "./QuicklinksCard";
 import wishlistImage from "../../public/img/wishlist_ql.jpg";
 import donationImage from "../../public/img/donation_ql.jpg";
 import facebookImage from "../../public/img/facebook_ql.jpg";
+import workImage from "../../public/img/work_ql.jpg";
 
 export default function QuicklinkLayout() {
   const quicklinks = [
     {
-      titleFirst: "View our",
+      titleFirst: "VIEW OUR",
       titleSecond: "WISHLIST",
       subtext:
         "See our Amazon wishlist and order items that we'll bring to Hilltop",
@@ -17,33 +18,43 @@ export default function QuicklinkLayout() {
       target: "_blank",
     },
     {
-      titleFirst: "Make a",
+      titleFirst: "MAKE A",
       titleSecond: "DONATION",
       subtext: "Find out how to donate and see how we spend the proceeds",
       image: { img: donationImage, alt: "Donation Quicklink Image" },
-      link: "/make_a_donation",
+      link: "/donate",
     },
     {
-      titleFirst: "Follow us on",
+      titleFirst: "FOLLOW US ON",
       titleSecond: "FACEBOOK",
       subtext: "Keep up to date with all of our news and fundraising events",
       image: { img: facebookImage, alt: "Facebook Quicklink Image" },
       link: "https://www.facebook.com/profile.php?id=100092229692407",
       target: "_blank",
     },
+    {
+      titleFirst: "WORK",
+      titleSecond: "WITH US",
+      subtext: "Find out about the many ways to work with our orginisation",
+      image: { img: workImage, alt: "Work with us Quicklink Image" },
+      link: "/work_with_us",
+    },
   ];
 
   return (
     <Container>
-      <div className="grid sm:grid-cols-2 text- lg:grid-cols-3 gap-2 xl:gap-6 2xl:gap-8">
+      <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-2 xl:gap-2">
         <div className="">
           <QuicklinkCard card={quicklinks[0]} />
         </div>
         <div className="">
           <QuicklinkCard card={quicklinks[1]} />
         </div>
-        <div className="sm:col-span-2 lg:px-0 md:px-28 lg:col-span-1">
+        <div className="">
           <QuicklinkCard card={quicklinks[2]} />
+        </div>
+        <div className="">
+          <QuicklinkCard card={quicklinks[3]} />
         </div>
       </div>
     </Container>

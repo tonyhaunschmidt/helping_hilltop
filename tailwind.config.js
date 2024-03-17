@@ -22,6 +22,7 @@ module.exports = {
       },
       fontFamily: {
         theme_main: "'Rubik', sans-serif",
+        theme_cursiv: "'Nanum Brush Script', cursive",
       },
     },
   },

@@ -1,4 +1,4 @@
-import Container from "./container";
+import Container from "./Container";
 import Image from "next/image";
 import oscr from "../../public/img/oscr_logo.jpg";
 import logo from "../../public/img/logo.png";

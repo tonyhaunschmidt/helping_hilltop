@@ -42,6 +42,14 @@ export default function Meta() {
         href="https://fonts.googleapis.com/css2?family=Iceland&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
         rel="stylesheet"
       ></link>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap"
+        rel="stylesheet"
+      ></link>
+      <link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      ></link>
     </Head>
   );
 }
