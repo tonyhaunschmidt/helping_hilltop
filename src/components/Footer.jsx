@@ -67,7 +67,7 @@ export default function Footer() {
             <p className="">
               <a
                 className="hover:text-light_green ease-in-out duration-300 transition-all"
-                href="/"
+                href="/about_us"
               >
                 ABOUT US
               </a>
@@ -75,7 +75,7 @@ export default function Footer() {
             <p className="">
               <a
                 className="hover:text-light_green ease-in-out duration-300 transition-all"
-                href="/"
+                href="/donate"
               >
                 DONATE
               </a>
@@ -83,7 +83,8 @@ export default function Footer() {
             <p className="">
               <a
                 className="hover:text-light_green ease-in-out duration-300 transition-all"
-                href="/"
+                href="https://www.amazon.co.uk/hz/wishlist/ls/KK6M9TP0QAHR?ref_=wl_share&fbclid=IwAR3i1_uIjaEZwrKgQD_mi0f50lEmkhxagioiLxDw7wPqJ693Oq-TF1O9UGk"
+                target="_blank"
               >
                 AMAZON WISHLIST
               </a>
@@ -91,7 +92,8 @@ export default function Footer() {
             <p className="">
               <a
                 className="hover:text-light_green ease-in-out duration-300 transition-all"
-                href="/"
+                href="https://www.facebook.com/profile.php?id=100092229692407"
+                target="_blank"
               >
                 FACEBOOK
               </a>
@@ -99,7 +101,7 @@ export default function Footer() {
             <p className="">
               <a
                 className="hover:text-light_green ease-in-out duration-300 transition-all"
-                href="/"
+                href="/work_with_us"
               >
                 WORK WITH US
               </a>

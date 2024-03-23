@@ -21,7 +21,7 @@ export default function QuicklinkCard({ card }) {
             {card.subtext}
           </p>
           <div className="sm:opacity-0 mt-6 ease-in-out duration-300 transition-all group-hover:delay-300 group-hover:opacity-100">
-            <div className="rounded-full w-fit mx-auto bg-white border-2 border-white text-logo_grey px-6 py-2 hover:bg-logo_green hover:text-white hover:border-dark_green ease-in-out duration-300 transition-all">
+            <div className="rounded-full w-fit mx-auto bg-white border border-white text-logo_grey px-6 py-2 hover:bg-dark_green hover:text-white hover:border-white ease-in-out duration-300 transition-all">
               <p className="text-[14px] font-semibold">FIND OUT MORE</p>
             </div>
           </div>

@@ -1,24 +1,97 @@
 import Container from "@/components/Container";
 import Image from "next/image";
-import welcomeImage from "../../../public/img/welcome_img.jpg";
+import fabianImage from "../../../public/img/facebook_test.jpg";
 
 export default function Page() {
   return (
-    <main className="pb-12 pt-24">
+    <main className="pb-12 pt-20">
       <Container>
         <div className="bg-white rounded-2xl px-4 sm:px-6 pt-8 pb-10">
           <h1 className="text-[40px] font-black">ABOUT US</h1>
-          <p className="mt-2">
-            here is a breif description about the company and what is to follow
-            on this page ******
-          </p>
+          <div className="text-[18px] [&>*]:mt-8">
+            <p>
+              Helping Hilltop is a small charity started in December 2023
+              following 3 years of private fundraising and donations by Vivienne
+              Hannah, family and friends, to help support Hilltop Christian
+              Orphanage, home to 81 orphans, aged 5-18 in Godako, Homabay County
+              in Kenya. It is run by Fabian Olouch and his wife Vivien with the
+              support of the local community. Much has been done already to help
+              the children with food, water, clothing, education and health but
+              there is still a long way to go. Life is still very basic with the
+              children sleeping on the floor in two huts and only having one
+              meal a day. Fabian has a small farm which is being developed to
+              feed the children and produce excess for sale for other needs. The
+              aim is self-sufficiency.
+            </p>
+            <p>
+              Our strength lies not only in the words we stand by, but more
+              importantly in action. From the moment we started our work with
+              Fabian in 2000, we understood that by working together we could
+              help overcome their challenges much more efficiently and that is
+              why we ultimately decided to launch Helping Hilltop. We strive to
+              make a positive change in all our pursuits.
+            </p>
+          </div>
+          <h2 className="text-[25px] font-semibold mt-8">
+            FABIAN&apos;S STORY
+          </h2>
+          <div className="mt-2 h-2 w-[100px] bg-logo_green rounded-full"></div>
+          <Image
+            className="2xl:w-[500px] hidden lg:block aspect-square rounded-2xl shadow-md shadow-gray-500 border border-logo_grey w-[350px] xl:w-[420px] ml-14 mb-10 object-cover float-right"
+            src={fabianImage}
+            alt="Main text Image"
+          />
+          <div className="text-[18px] [&>*]:mt-8">
+            <p>
+              My grandmother started all this. Her name was Anastacia Ojwando
+              but she was known to the community as “Chuny Mogwedhi.” My sister
+              and I lived with her after our parents died when I was about 4.
+              During the times when HIV/AIDS was rife, many people in the
+              village died and a number of children were left without parents.
+              My grandmother began helping the vulnerable children in the
+              community. I witnessed this as I would go with her to her sweet
+              potato farm and help her carry the sacks of potatoes. She would
+              cook these for the children and also sell some to help us get some
+              personal items.
+            </p>
+            <p>
+              My grandmother died when I was 7. I grew up in a very poor local
+              family. Some of the older children left for early marriages and
+              some got lost in the streets. I decided to try and gather some of
+              the younger children and engage them in farming our ancestral
+              land. This enabled some of us to pay for school tuition in the
+              local public school but not all attended.
+            </p>
+            <p>
+              I attribute my full desire to help the orphans to my own
+              experience growing up as one and to my grandmother. This made me
+              drop out of school and stop furthering my education as an
+              elementary teacher. Instead of pursuing a path of personal
+              financial security, I began a sustainable agriculture at the age
+              of 14 to help the destitute children from the slums of Rodi and
+              the entire village. At that time, we had post-election violence in
+              Kenya and many children were affected. Some were involved in
+              rag-picking, and some in anti-social activities. Some girls were
+              raped in the streets or beaten due to crime. I begun taking
+              orphans off the streets in my village into my own home and doing
+              agriculture together.
+            </p>
+            <p>
+              I recruited some local widows to help as more children were
+              brought to me. The widows could carry some potatoes and grains
+              which my grandmother had introduced as indigenous crops. Some of
+              these widows are affected by HIV/AIDS and suffer so much at times,
+              so I offered to always take them to church and offer them
+              spiritual nourishment. I have a very strong Christian faith.
+            </p>
+          </div>
           <h2 className="text-[25px] font-semibold mt-8">
             VIVIENNE&apos;S STORY
           </h2>
           <div className="mt-2 h-2 w-[100px] bg-logo_green rounded-full"></div>
           <Image
             className="2xl:w-[500px] aspect-square rounded-2xl shadow-md shadow-gray-500 border border-logo_grey w-full sm:w-[240px] lg:w-[350px] xl:w-[420px] ml-14 mb-10 object-cover float-right"
-            src={welcomeImage}
+            src={fabianImage}
             alt="Main text Image"
           />
           <div className="text-[18px] [&>*]:mt-8">
@@ -81,62 +154,17 @@ export default function Page() {
             </p>
             <p>With our support they can achieve anything they want.</p>
           </div>
-          <h2 className="text-[25px] font-semibold mt-8">
-            FABIAN&apos;S STORY
-          </h2>
+          <h2 className="text-[25px] font-semibold mt-8">OUR HISTORY</h2>
           <div className="mt-2 h-2 w-[100px] bg-logo_green rounded-full"></div>
-          <Image
-            className="2xl:w-[500px] hidden lg:block aspect-square rounded-2xl shadow-md shadow-gray-500 border border-logo_grey w-[350px] xl:w-[420px] ml-14 mb-10 object-cover float-right"
-            src={welcomeImage}
-            alt="Main text Image"
-          />
           <div className="text-[18px] [&>*]:mt-8">
             <p>
-              My grandmother started all this. Her name was Anastacia Ojwando
-              but she was known to the community as “Chuny Mogwedhi.” My sister
-              and I lived with her after our parents died when I was about 4.
-              During the times when HIV/AIDS was rife, many people in the
-              village died and a number of children were left without parents.
-              My grandmother began helping the vulnerable children in the
-              community. I witnessed this as I would go with her to her sweet
-              potato farm and help her carry the sacks of potatoes. She would
-              cook these for the children and also sell some to help us get some
-              personal items.
+              Our history with Hilltop goes all the way back to the year 2000.
+              Click on the button below to see what we have achieved since then!
             </p>
-            <p>
-              My grandmother died when I was 7. I grew up in a very poor local
-              family. Some of the older children left for early marriages and
-              some got lost in the streets. I decided to try and gather some of
-              the younger children and engage them in farming our ancestral
-              land. This enabled some of us to pay for school tuition in the
-              local public school but not all attended.
-            </p>
-            <p>
-              I attribute my full desire to help the orphans to my own
-              experience growing up as one and to my grandmother. This made me
-              drop out of school and stop furthering my education as an
-              elementary teacher. Instead of pursuing a path of personal
-              financial security, I began a sustainable agriculture at the age
-              of 14 to help the destitute children from the slums of Rodi and
-              the entire village. At that time, we had post-election violence in
-              Kenya and many children were affected. Some were involved in
-              rag-picking, and some in anti-social activities. Some girls were
-              raped in the streets or beaten due to crime. I begun taking
-              orphans off the streets in my village into my own home and doing
-              agriculture together.
-            </p>
-            <p>
-              I recruited some local widows to help as more children were
-              brought to me. The widows could carry some potatoes and grains
-              which my grandmother had introduced as indigenous crops. Some of
-              these widows are affected by HIV/AIDS and suffer so much at times,
-              so I offered to always take them to church and offer them
-              spiritual nourishment. I have a very strong Christian faith.
-            </p>
-          </div>{" "}
+          </div>
           <a
             href="/about_us"
-            className="mt-12 block rounded-full w-fit mx-auto bg-white border border-logo_green text-logo_grey px-6 py-2 hover:border-logo_grey hover:bg-logo_green hover:text-white ease-in-out duration-300 transition-all"
+            className="mt-6 block rounded-full w-fit bg-white border border-logo_green text-logo_grey px-6 py-2 hover:border-logo_green hover:bg-dark_green hover:text-white ease-in-out duration-300 transition-all"
           >
             <p className="text-[14px] font-semibold">SEE OUR TIMELINE</p>
           </a>

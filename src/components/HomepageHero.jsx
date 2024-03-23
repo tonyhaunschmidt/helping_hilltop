@@ -15,10 +15,10 @@ export default function HomepageHero() {
   };
 
   return (
-    <div className="h-screen relative overflow-hidden min-h-[600px]">
+    <div className="lg:h-screen relative overflow-hidden h-[300px] lg:min-h-[600px]">
       <HomepageHeroSlider />
       <HomepageHeroOverlay />
-      <div className="absolute inset-0">
+      <div className="absolute hidden lg:block inset-0">
         <div className="text-white flex w-fit items-center leading-none absolute left-20 bottom-20 space-x-6">
           <div className="rounded-3xl border w-fit bg-white p-6">
             <Image

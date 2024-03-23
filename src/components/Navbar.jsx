@@ -1,3 +1,8 @@
+"use client";
+import { useState, useEffect } from "react";
+import { usePathname } from "next/navigation";
+import Container from "./Container";
+
 export default function Navbar() {
   const navbarItems = [
     { name: "Home", link: "/" },
@@ -17,17 +22,59 @@ export default function Navbar() {
       name: "Work With Us",
       link: "/work_with_us",
     },
-    { name: "Contacts", link: "/contacts" },
   ];
 
+  const pathname = usePathname();
+
+  const [navStatus, setNavStatus] = useState("static");
+
+  const [offset, setOffset] = useState(0);
+
+  useEffect(() => {
+    const onScroll = () => setOffset(window.scrollY);
+    window.removeEventListener("scroll", onScroll);
+    window.addEventListener("scroll", onScroll, { passive: true });
+    return () => window.removeEventListener("scroll", onScroll);
+  }, []);
+
+  useEffect(() => {
+    if (offset <= 4) {
+      setNavStatus("static");
+    }
+    if (offset < 100 && offset > 4 && navStatus !== "sticky") {
+      setNavStatus("static");
+    }
+    if (offset > 100 && navStatus !== "sticky") {
+      setNavStatus("off_screen");
+    }
+
+    if (offset > 200) {
+      setNavStatus("sticky");
+    }
+  }, [offset, navStatus]);
+
   return (
-    <nav className="fixed z-50 flex items-center w-full justify-center space-x-20">
-      <div className="pt-8 text-white">
-        <div className="flex items-center space-x-8">
+    <nav
+      className={`${
+        navStatus === "static"
+          ? "absolute top-0"
+          : navStatus === "sticky"
+          ? "sticky-nav fixed -top-3 ease-in-out duration-500 transition-all"
+          : navStatus === "off_screen" && "fixed -top-20"
+      } pt-4 z-50 w-full justify-center space-x-20`}
+    >
+      <Container>
+        <div
+          className={`${
+            pathname === "/"
+              ? "[.sticky-nav_&]:bg-dark_green [.sticky-nav_&]:border-white [.sticky-nav_&]:border"
+              : "bg-dark_green border-white border"
+          } p-2 hidden lg:flex items-center justify-center space-x-4 w-full rounded-xl text-white`}
+        >
           {navbarItems.map((item, index) => (
             <p key={index} className="">
               <a
-                className="hover:text-dark_green hover:bg-white rounded-lg py-1 px-2 ease-in-out duration-300 transition-all"
+                className="hover:text-dark_green hover:bg-white rounded-lg py-1 px-4 ease-in-out duration-300 transition-all"
                 href={item.link}
                 target={item.target}
               >
@@ -36,7 +83,7 @@ export default function Navbar() {
             </p>
           ))}
         </div>
-      </div>
+      </Container>
     </nav>
   );
 }

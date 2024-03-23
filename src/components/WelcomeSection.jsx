@@ -47,7 +47,7 @@ export default function WelcomeSection() {
               </p>
               <a
                 href="/about_us"
-                className="mt-12 block rounded-full w-fit mx-auto bg-white border border-logo_green text-logo_grey px-6 py-2 hover:border-logo_grey hover:bg-logo_green hover:text-white ease-in-out duration-300 transition-all"
+                className="mt-12 block rounded-full w-fit mx-auto bg-white border border-logo_green text-logo_grey px-6 py-2 hover:border-logo_green hover:bg-dark_green hover:text-white ease-in-out duration-300 transition-all"
               >
                 <p className="text-[14px] font-semibold">FIND OUT MORE</p>
               </a>

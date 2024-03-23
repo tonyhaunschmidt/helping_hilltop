@@ -37,7 +37,7 @@ export default function HomepageHeroSlider() {
     <Slider {...sliderSettings}>
       {heroImages.map((image, index) => (
         <Image
-          className="w-screen h-screen min-h-[600px] object-cover"
+          className="w-screen h-[300px] lg:h-screen lg:min-h-[600px] object-cover"
           key={index}
           src={image}
           alt="hero image"
