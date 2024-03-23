@@ -37,7 +37,7 @@ export default function HomepageHero() {
         <div className="absolute pt-4 px-4 w-fit right-16 bottom-0 overflow-hidden">
           <div
             onClick={() => scrollToID("welcome-text")}
-            className="mx-auto hover:cursor-pointer hover:text-logo_green hover:scale-105 ease-in-out duration-300 transition-all bg-bg_brown rounded-full aspect-square w-20 -mb-10"
+            className="mx-auto hover:cursor-pointer hover:text-light_green hover:scale-105 ease-in-out duration-300 transition-all bg-bg_brown rounded-full aspect-square w-20 -mb-10"
           >
             <div className="h-1/2 w-full flex items-center justify-center">
               <span className="material-symbols-outlined scale-110 mt-1">
