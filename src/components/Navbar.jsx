@@ -54,36 +54,45 @@ export default function Navbar() {
   }, [offset, navStatus]);
 
   return (
-    <nav
-      className={`${
-        navStatus === "static"
-          ? "absolute top-0"
-          : navStatus === "sticky"
-          ? "sticky-nav fixed -top-3 ease-in-out duration-500 transition-all"
-          : navStatus === "off_screen" && "fixed -top-20"
-      } pt-4 z-50 w-full justify-center space-x-20`}
-    >
-      <Container>
-        <div
-          className={`${
-            pathname === "/"
-              ? "[.sticky-nav_&]:bg-dark_green [.sticky-nav_&]:border-white [.sticky-nav_&]:border"
-              : "bg-dark_green border-white border"
-          } p-2 hidden lg:flex items-center justify-center space-x-4 w-full rounded-xl text-white`}
-        >
-          {navbarItems.map((item, index) => (
-            <p key={index} className="">
-              <a
-                className="hover:text-dark_green hover:bg-white rounded-lg py-1 px-4 ease-in-out duration-300 transition-all"
-                href={item.link}
-                target={item.target}
-              >
-                {item.name}
-              </a>
-            </p>
-          ))}
+    <nav className={`${pathname === "/" ? "homepage" : "subpage"}`}>
+      <div className="lg:hidden">
+        <div className="absolute right-5 top-5 h-10 w-12 rounded-lg bg-dark_green p-1.5 border-2 [.homepage_&]:border-white [.subpage_&]:border-logo_green justify-between items-stretch flex flex-col">
+          <div className="rounded-md bg-white h-[5px]"></div>
+          <div className="rounded-md bg-white h-[5px]"></div>
+          <div className="rounded-md bg-white h-[5px]"></div>
         </div>
-      </Container>
+      </div>
+      <div
+        className={`${
+          navStatus === "static"
+            ? "absolute top-0"
+            : navStatus === "sticky"
+            ? "sticky-nav fixed -top-3 ease-in-out duration-500 transition-all"
+            : navStatus === "off_screen" && "fixed -top-20"
+        } pt-4 z-50 hidden lg:block w-full justify-center space-x-20`}
+      >
+        <Container>
+          <div
+            className={`${
+              pathname === "/"
+                ? "[.sticky-nav_&]:bg-dark_green w-fit mx-auto [.sticky-nav_&]:border-white [.sticky-nav_&]:border"
+                : "bg-dark_green border-white border w-full"
+            } p-2 flex items-center justify-center px-10 space-x-4 rounded-xl text-white`}
+          >
+            {navbarItems.map((item, index) => (
+              <p key={index} className="">
+                <a
+                  className="hover:text-dark_green hover:bg-white rounded-lg py-1 px-4 ease-in-out duration-300 transition-all"
+                  href={item.link}
+                  target={item.target}
+                >
+                  {item.name}
+                </a>
+              </p>
+            ))}
+          </div>
+        </Container>
+      </div>
     </nav>
   );
 }

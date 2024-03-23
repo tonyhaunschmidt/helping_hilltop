@@ -6,8 +6,8 @@ export default function Page() {
   return (
     <main className="pb-12 pt-20">
       <Container>
-        <div className="bg-white rounded-2xl px-4 sm:px-6 pt-8 pb-10">
-          <h1 className="text-[40px] font-black">ABOUT US</h1>
+        <div className="bg-white rounded-2xl text-justify sm:mx-0 -mx-3 px-4 sm:px-6 pt-8 pb-10">
+          <h1 className="text-[30px] sm:text-[40px] font-black">ABOUT US</h1>
           <div className="text-[18px] [&>*]:mt-8">
             <p>
               Helping Hilltop is a small charity started in December 2023
@@ -35,7 +35,7 @@ export default function Page() {
           <h2 className="text-[25px] font-semibold mt-8">
             FABIAN&apos;S STORY
           </h2>
-          <div className="mt-2 h-2 w-[100px] bg-logo_green rounded-full"></div>
+          <div className="mt-2 h-1.5 w-[100px] bg-logo_green rounded-full"></div>
           <Image
             className="2xl:w-[500px] hidden lg:block aspect-square rounded-2xl shadow-md shadow-gray-500 border border-logo_grey w-[350px] xl:w-[420px] ml-14 mb-10 object-cover float-right"
             src={fabianImage}
@@ -88,7 +88,7 @@ export default function Page() {
           <h2 className="text-[25px] font-semibold mt-8">
             VIVIENNE&apos;S STORY
           </h2>
-          <div className="mt-2 h-2 w-[100px] bg-logo_green rounded-full"></div>
+          <div className="mt-2 h-1.5 w-[100px] bg-logo_green rounded-full"></div>
           <Image
             className="2xl:w-[500px] aspect-square rounded-2xl shadow-md shadow-gray-500 border border-logo_grey w-full sm:w-[240px] lg:w-[350px] xl:w-[420px] ml-14 mb-10 object-cover float-right"
             src={fabianImage}
@@ -164,7 +164,7 @@ export default function Page() {
           </div>
           <a
             href="/about_us"
-            className="mt-6 block rounded-full w-fit bg-white border border-logo_green text-logo_grey px-6 py-2 hover:border-logo_green hover:bg-dark_green hover:text-white ease-in-out duration-300 transition-all"
+            className="mt-6 block rounded-xl w-fit bg-white border border-logo_green text-logo_grey px-6 py-2 hover:border-logo_green hover:bg-dark_green hover:text-white ease-in-out duration-300 transition-all"
           >
             <p className="text-[14px] font-semibold">SEE OUR TIMELINE</p>
           </a>

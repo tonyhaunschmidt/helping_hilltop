@@ -4,19 +4,22 @@ import Container from "./Container";
 
 export default function WelcomeSection() {
   return (
-    <section id="welcome-text" className="pt-8 sm:pt-16 pb-16 relative">
+    <section
+      id="welcome-text"
+      className="pt-8 text-justify lg:pt-16 pb-16 relative"
+    >
       <Container>
-        <div className="bg-white rounded-2xl px-4 sm:px-6 pt-8 pb-10">
+        <div className="bg-white rounded-2xl sm:mx-0 -mx-3 px-4 sm:px-6 pt-8 pb-10">
           <Image
-            className="2xl:w-[500px] hidden lg:block aspect-square rounded-2xl shadow-md shadow-gray-500 border border-logo_grey w-[350px] xl:w-[420px] mr-14 mb-10 object-cover float-left"
+            className="2xl:w-[522px] hidden lg:block aspect-square rounded-2xl shadow-md shadow-gray-500 border border-logo_grey w-[350px] xl:w-[420px] mr-14 mb-10 object-cover float-left"
             src={welcomeImage}
             alt="Main text Image"
           />
           <div className="lg:pt-5">
-            <h1 className="leading-tight text-center sm:text-left">
+            <h1 className="leading-tight sm:text-justify text-center">
               <span>WELCOME TO</span>
               <br />
-              <span className="text-[40px] sm:text-[50px] xl:text-[60px] font-black">
+              <span className="text-[40px] text-dark_green sm:text-[50px] xl:text-[60px] font-black">
                 HELPING HILLTOP
               </span>
             </h1>
@@ -47,7 +50,7 @@ export default function WelcomeSection() {
               </p>
               <a
                 href="/about_us"
-                className="mt-12 block rounded-full w-fit mx-auto bg-white border border-logo_green text-logo_grey px-6 py-2 hover:border-logo_green hover:bg-dark_green hover:text-white ease-in-out duration-300 transition-all"
+                className="mt-12 block rounded-xl w-fit mx-auto bg-white border border-logo_green text-logo_grey px-6 py-2 hover:border-logo_green hover:bg-dark_green hover:text-white ease-in-out duration-300 transition-all"
               >
                 <p className="text-[14px] font-semibold">FIND OUT MORE</p>
               </a>

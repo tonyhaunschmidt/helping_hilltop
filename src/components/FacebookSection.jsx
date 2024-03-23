@@ -13,7 +13,9 @@ export default function FacebookSection() {
             <h1 className="leading-tight">
               <span className="text-[20px]">FOLLOW OUR</span>
               <br />
-              <span className="text-[55px] font-black">SOCIALS</span>
+              <span className="text-[40px] sm:text-[55px] text-dark_green font-black">
+                SOCIALS
+              </span>
             </h1>
             <div className="h-2 mt-1 w-[100px] mx-auto rounded-full bg-logo_green"></div>
           </div>
