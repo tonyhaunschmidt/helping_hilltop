@@ -1,6 +1,7 @@
 import Container from "@/components/Container";
 import Image from "next/image";
 import fabianImage from "../../../public/img/facebook_test.jpg";
+import vivienneImage from "../../../public/img/facebook_test.jpg";
 
 export default function Page() {
   return (
@@ -12,16 +13,16 @@ export default function Page() {
             <p>
               Helping Hilltop is a small charity started in December 2023
               following 3 years of private fundraising and donations by Vivienne
-              Hannah, family and friends, to help support Hilltop Christian
-              Orphanage, home to 81 orphans, aged 5-18 in Godako, Homabay County
-              in Kenya. It is run by Fabian Olouch and his wife Vivien with the
-              support of the local community. Much has been done already to help
-              the children with food, water, clothing, education and health but
-              there is still a long way to go. Life is still very basic with the
-              children sleeping on the floor in two huts and only having one
-              meal a day. Fabian has a small farm which is being developed to
-              feed the children and produce excess for sale for other needs. The
-              aim is self-sufficiency.
+              Hannah along with family and friends, to help support Hilltop
+              Christian Orphanage, home to 81 orphans, aged 5-18 in Godako,
+              Homabay County in Kenya. It is run by Fabian Olouch and his wife
+              Vivien with the support of the local community. Much has been done
+              already to help the children with food, water, clothing, education
+              and health but there is still a long way to go. Life is still very
+              basic with the children sleeping on the floor in two huts and only
+              having one meal a day. Fabian has a small farm which is being
+              developed to feed the children and produce excess for sale for
+              other needs. The aim is self-sufficiency.
             </p>
             <p>
               Our strength lies not only in the words we stand by, but more
@@ -37,9 +38,9 @@ export default function Page() {
           </h2>
           <div className="mt-2 h-1.5 w-[100px] bg-logo_green rounded-full"></div>
           <Image
-            className="2xl:w-[500px] hidden lg:block aspect-square rounded-2xl shadow-md shadow-gray-500 border border-logo_grey w-[350px] xl:w-[420px] ml-14 mb-10 object-cover float-right"
+            className="2xl:w-[500px] sm:aspect-square rounded-2xl shadow-md shadow-gray-500 border border-logo_grey sm:h-auto h-[270px] w-full sm:w-[270px] md:w-[300px] lg:w-[350px] xl:w-[420px] sm:ml-14 sm:mt-0 my-8 sm:mb-10 object-cover sm:float-right"
             src={fabianImage}
-            alt="Main text Image"
+            alt="Fabian's Story"
           />
           <div className="text-[18px] [&>*]:mt-8">
             <p>
@@ -90,9 +91,9 @@ export default function Page() {
           </h2>
           <div className="mt-2 h-1.5 w-[100px] bg-logo_green rounded-full"></div>
           <Image
-            className="2xl:w-[500px] aspect-square rounded-2xl shadow-md shadow-gray-500 border border-logo_grey w-full sm:w-[240px] lg:w-[350px] xl:w-[420px] ml-14 mb-10 object-cover float-right"
-            src={fabianImage}
-            alt="Main text Image"
+            className="2xl:w-[500px] sm:aspect-square rounded-2xl shadow-md shadow-gray-500 border border-logo_grey sm:h-auto h-[270px] w-full sm:w-[270px] md:w-[300px] lg:w-[350px] xl:w-[420px] sm:ml-14 sm:mt-0 my-8 sm:mb-10 object-cover sm:float-right"
+            src={vivienneImage}
+            alt="Vivienne's Story"
           />
           <div className="text-[18px] [&>*]:mt-8">
             <p>
@@ -154,7 +155,7 @@ export default function Page() {
             </p>
             <p>With our support they can achieve anything they want.</p>
           </div>
-          <h2 className="text-[25px] font-semibold mt-8">OUR HISTORY</h2>
+          {/* <h2 className="text-[25px] font-semibold mt-8">OUR HISTORY</h2>
           <div className="mt-2 h-2 w-[100px] bg-logo_green rounded-full"></div>
           <div className="text-[18px] [&>*]:mt-8">
             <p>
@@ -167,7 +168,7 @@ export default function Page() {
             className="mt-6 block rounded-xl w-fit bg-white border border-logo_green text-logo_grey px-6 py-2 hover:border-logo_green hover:bg-dark_green hover:text-white ease-in-out duration-300 transition-all"
           >
             <p className="text-[14px] font-semibold">SEE OUR TIMELINE</p>
-          </a>
+          </a>*/}
         </div>
       </Container>
     </main>

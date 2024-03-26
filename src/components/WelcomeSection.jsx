@@ -29,16 +29,17 @@ export default function WelcomeSection() {
               <p>
                 Helping Hilltop is a small charity started in December 2023
                 following 3 years of private fundraising and donations by
-                Vivienne Hannah, family and friends, to help support Hilltop
-                Christian Orphanage, home to 81 orphans, aged 5-18 in Godako,
-                Homabay County in Kenya. It is run by Fabian Olouch and his wife
-                Vivien with the support of the local community. Much has been
-                done already to help the children with food, water, clothing,
-                education and health but there is still a long way to go. Life
-                is still very basic with the children sleeping on the floor in
-                two huts and only having one meal a day. Fabian has a small farm
-                which is being developed to feed the children and produce excess
-                for sale for other needs. The aim is self-sufficiency.
+                Vivienne Hannah along with family and friends, to help support
+                Hilltop Christian Orphanage, home to 81 orphans, aged 5-18 in
+                Godako, Homabay County in Kenya. It is run by Fabian Olouch and
+                his wife Vivien with the support of the local community. Much
+                has been done already to help the children with food, water,
+                clothing, education and health but there is still a long way to
+                go. Life is still very basic with the children sleeping on the
+                floor in two huts and only having one meal a day. Fabian has a
+                small farm which is being developed to feed the children and
+                produce excess for sale for other needs. The aim is
+                self-sufficiency.
               </p>
               <p>
                 Our strength lies not only in the words we stand by, but more

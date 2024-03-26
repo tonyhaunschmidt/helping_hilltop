@@ -47,7 +47,7 @@ export default function Footer() {
             <address className="not-italic">
               <a
                 className="hover:text-light_green ease-in-out duration-300 transition-all"
-                href="helpinghilltop23@gmail.com"
+                href="mailto:helpinghilltop23@gmail.com"
               >
                 helpinghilltop23@gmail.com
               </a>

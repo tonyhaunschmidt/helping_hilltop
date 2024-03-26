@@ -1,5 +1,4 @@
 @tailwind base;
-@import "../css/slick.css";
 @import "../css/icons.css";
 @tailwind components;
 @tailwind utilities;

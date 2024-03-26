@@ -53,13 +53,51 @@ export default function Navbar() {
     }
   }, [offset, navStatus]);
 
+  const [burgerMenu, setBurgerMenu] = useState(false);
+
   return (
     <nav className={`${pathname === "/" ? "homepage" : "subpage"}`}>
       <div className="lg:hidden">
-        <div className="absolute right-5 top-5 h-10 w-12 rounded-lg bg-dark_green p-1.5 border-2 [.homepage_&]:border-white [.subpage_&]:border-logo_green justify-between items-stretch flex flex-col">
+        <div
+          onClick={() => setBurgerMenu(true)}
+          className="absolute right-5 top-5 h-10 w-12 rounded-lg hover:bg-light_green hover:cursor-pointer bg-dark_green p-1.5 border-2 [.homepage_&]:border-white [.subpage_&]:border-logo_green justify-between items-stretch flex flex-col ease-in-out duration-300 transition-all"
+        >
           <div className="rounded-md bg-white h-[5px]"></div>
           <div className="rounded-md bg-white h-[5px]"></div>
           <div className="rounded-md bg-white h-[5px]"></div>
+        </div>
+        <div
+          className={`${
+            burgerMenu ? "w-screen h-screen" : "w-0 h-0"
+          } fixed right-0 top-0 z-[999]`}
+        >
+          <div
+            className={`${
+              burgerMenu ? "opacity-100" : "opacity-0"
+            }  bg-dark_green text-white w-full pt-12 h-full ease-in-out duration-300 transition-all`}
+          >
+            <Container>
+              <span
+                onClick={() => setBurgerMenu(false)}
+                className="material-symbols-outlined ml-2 hover:cursor-pointer p-1 bg-transparent hover:bg-white rounded-xl hover:text-dark_green ease-in-out duration-300 transition-all text-right font-bold w-fit text-[22px]"
+              >
+                close
+              </span>
+              <div className="mt-8 space-y-3">
+                {navbarItems.map((item, index) => (
+                  <p key={index} className="">
+                    <a
+                      className="hover:text-dark_green hover:bg-white rounded-lg py-1 px-4 ease-in-out duration-300 transition-all"
+                      href={item.link}
+                      target={item.target}
+                    >
+                      {item.name}
+                    </a>
+                  </p>
+                ))}
+              </div>
+            </Container>
+          </div>
         </div>
       </div>
       <div
