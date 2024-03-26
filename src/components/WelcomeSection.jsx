@@ -4,19 +4,16 @@ import Container from "./Container";
 
 export default function WelcomeSection() {
   return (
-    <section
-      id="welcome-text"
-      className="pt-8 text-justify lg:pt-16 pb-16 relative"
-    >
+    <section id="welcome-text" className="pt-8 lg:pt-16 pb-16 relative">
       <Container>
-        <div className="bg-white rounded-2xl sm:mx-0 -mx-3 px-4 sm:px-6 pt-8 pb-10">
+        <div className="bg-white text-center sm:text-left rounded-2xl sm:mx-0 -mx-3 px-4 sm:px-6 pt-8 pb-10">
           <Image
             className="2xl:w-[522px] hidden lg:block aspect-square rounded-2xl shadow-md shadow-gray-500 border border-logo_grey w-[350px] xl:w-[420px] mr-14 mb-10 object-cover float-left"
             src={welcomeImage}
             alt="Main text Image"
           />
           <div className="lg:pt-5">
-            <h1 className="leading-tight sm:text-justify text-center">
+            <h1 className="leading-tight sm:text-left text-center">
               <span>WELCOME TO</span>
               <br />
               <span className="text-[40px] text-dark_green sm:text-[50px] xl:text-[60px] font-black">

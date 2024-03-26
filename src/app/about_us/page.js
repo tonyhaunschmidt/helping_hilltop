@@ -7,7 +7,7 @@ export default function Page() {
   return (
     <main className="pb-12 pt-20">
       <Container>
-        <div className="bg-white rounded-2xl text-justify sm:mx-0 -mx-3 px-4 sm:px-6 pt-8 pb-10">
+        <div className="bg-white rounded-2xl sm:mx-0 -mx-3 px-4 sm:px-6 pt-8 pb-10">
           <h1 className="text-[30px] sm:text-[40px] font-black">ABOUT US</h1>
           <div className="text-[18px] [&>*]:mt-8">
             <p>
