@@ -75,7 +75,7 @@ export default function Page() {
               </a>{" "}
               or{" "}
               <a
-                className="hover:text-light_green text-logo_green ease-in-out duration-300 transition-all"
+                className="hover:text-light_green whitespace-nowrap text-logo_green ease-in-out duration-300 transition-all"
                 href="tel:+07455374201"
               >
                 07455 374201
