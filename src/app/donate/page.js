@@ -65,7 +65,7 @@ export default function Page() {
             <h2 className="text-3xl font-bold text-dark_green">VINTED</h2>
             <p className="!mt-2">
               We sell good quality second hand clothing on Vinted. Donate your
-              unwanted clothing or us to sell, or check out what we have on
+              unwanted clothing for us to sell, or check out what we have on
               offer. You might find a bargain!
             </p>
             <a
