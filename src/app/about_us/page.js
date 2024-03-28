@@ -1,7 +1,7 @@
 import Container from "@/components/Container";
 import Image from "next/image";
-import fabianImage from "../../../public/img/facebook_test.jpg";
-import vivienneImage from "../../../public/img/facebook_test.jpg";
+import fabianImage from "../../../public/img/fabian.jpg";
+import vivienneImage from "../../../public/img/vivienne.jpg";
 
 export default function Page() {
   return (
@@ -33,17 +33,16 @@ export default function Page() {
               make a positive change in all our pursuits.
             </p>
           </div>
-          <h2 className="text-[25px] font-semibold mt-8">
+          <h2 className="text-3xl mt-8 font-bold text-dark_green">
             FABIAN&apos;S STORY
           </h2>
-          <div className="mt-2 h-1.5 w-[100px] bg-logo_green rounded-full"></div>
           <Image
             className="2xl:w-[500px] sm:aspect-square rounded-2xl shadow-md shadow-gray-500 border border-logo_grey sm:h-auto h-[270px] w-full sm:w-[270px] md:w-[300px] lg:w-[350px] xl:w-[420px] sm:ml-14 sm:mt-0 my-8 sm:mb-10 object-cover sm:float-right"
             src={fabianImage}
             alt="Fabian's Story"
           />
           <div className="text-[18px] [&>*]:mt-8">
-            <p>
+            <p className="!mt-2">
               My grandmother started all this. Her name was Anastacia Ojwando
               but she was known to the community as “Chuny Mogwedhi.” My sister
               and I lived with her after our parents died when I was about 4.
@@ -86,17 +85,16 @@ export default function Page() {
               spiritual nourishment. I have a very strong Christian faith.
             </p>
           </div>
-          <h2 className="text-[25px] font-semibold mt-8">
+          <h2 className="text-3xl mt-8 font-bold text-dark_green">
             VIVIENNE&apos;S STORY
           </h2>
-          <div className="mt-2 h-1.5 w-[100px] bg-logo_green rounded-full"></div>
           <Image
             className="2xl:w-[500px] sm:aspect-square rounded-2xl shadow-md shadow-gray-500 border border-logo_grey sm:h-auto h-[270px] w-full sm:w-[270px] md:w-[300px] lg:w-[350px] xl:w-[420px] sm:ml-14 sm:mt-0 my-8 sm:mb-10 object-cover sm:float-right"
             src={vivienneImage}
             alt="Vivienne's Story"
           />
           <div className="text-[18px] [&>*]:mt-8">
-            <p>
+            <p className="!mt-2">
               In 2000 I saw a post on a friend’s Facebook page asking for help
               raising funds for school uniforms for an orphanage in Kenya.
               Intrigued, I asked him how he had found an orphanage to help as he
