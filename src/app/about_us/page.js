@@ -37,7 +37,7 @@ export default function Page() {
             FABIAN&apos;S STORY
           </h2>
           <Image
-            className="2xl:w-[500px] sm:aspect-square rounded-2xl shadow-md shadow-gray-500 border border-logo_grey sm:h-auto h-[270px] w-full sm:w-[270px] md:w-[300px] lg:w-[350px] xl:w-[420px] sm:ml-14 sm:mt-0 my-8 sm:mb-10 object-cover sm:float-right"
+            className="2xl:w-[500px] sm:aspect-square rounded-2xl shadow-md shadow-gray-500 border border-logo_grey sm:h-auto h-[450px] w-full sm:w-[270px] md:w-[300px] lg:w-[350px] xl:w-[420px] sm:ml-14 sm:mt-0 mb-8 mt-4 sm:mb-10 object-cover sm:float-right"
             src={fabianImage}
             alt="Fabian's Story"
           />
@@ -89,7 +89,7 @@ export default function Page() {
             VIVIENNE&apos;S STORY
           </h2>
           <Image
-            className="2xl:w-[500px] sm:aspect-square rounded-2xl shadow-md shadow-gray-500 border border-logo_grey sm:h-auto h-[270px] w-full sm:w-[270px] md:w-[300px] lg:w-[350px] xl:w-[420px] sm:ml-14 sm:mt-0 my-8 sm:mb-10 object-cover sm:float-right"
+            className="2xl:w-[500px] sm:aspect-square rounded-2xl shadow-md shadow-gray-500 border border-logo_grey sm:h-auto h-[450px] w-full sm:w-[270px] md:w-[300px] lg:w-[350px] xl:w-[420px] sm:ml-14 sm:mt-0 mb-8 mt-4 sm:mb-10 object-cover sm:float-right"
             src={vivienneImage}
             alt="Vivienne's Story"
           />
