@@ -35,12 +35,12 @@ export default function MissionSection() {
   return (
     <section className="pt-12 text-center text-white pb-10 relative">
       <div className="absolute z-[-2] inset-0 bg-fixed bg-cover bg-[url('../../public/img/mission_bg.jpg')]"></div>
-      <div className="bg-dark_green bg-opacity-60 absolute z-[-1] inset-0 "></div>
+      <div className="bg-dark_green bg-opacity-70 absolute z-[-1] inset-0 "></div>
       <Container>
         <h1 className="text-[20px] leading-tight font-bold">
           FABIAN&apos;S MISSION STATEMENT
         </h1>
-        <div className="text-[35px] font-bold mt-10 xl:px-20 2xl:px-56">
+        <div className="text-[35px] font-bold mt-10 xl:px-20 2xl:px-40">
           <Slider {...sliderSettings}>
             <div>
               <div className="flex flex-col justify-center min-h-[370px] sm:min-h-0 sm:h-[160px] lg:h-[105px]">
