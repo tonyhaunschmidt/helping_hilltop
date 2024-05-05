@@ -26,6 +26,14 @@ export default function Page() {
               do things cost?” page for an idea of where the money goes. Thank
               you so much for your help.
             </p>
+            <a
+              href="/how_much_do_things_cost"
+              className="mt-6 block rounded-xl w-fit bg-white border border-logo_green text-logo_grey px-6 py-2 hover:border-logo_green hover:bg-dark_green hover:text-white ease-in-out duration-300 transition-all"
+            >
+              <p className="text-[14px] font-semibold">
+                HOW MUCH DO THINGS COST?
+              </p>
+            </a>
           </div>
 
           <div className="text-[18px] [&>*]:mt-8">
