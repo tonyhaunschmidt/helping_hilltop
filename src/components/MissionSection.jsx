@@ -40,7 +40,7 @@ export default function MissionSection() {
         <h1 className="text-[20px] leading-tight font-bold">
           FABIAN&apos;S MISSION STATEMENT
         </h1>
-        <div className="text-[35px] mt-10 xl:px-20 2xl:px-56">
+        <div className="text-[35px] font-bold mt-10 xl:px-20 2xl:px-56">
           <Slider {...sliderSettings}>
             <div>
               <div className="flex flex-col justify-center min-h-[370px] sm:min-h-0 sm:h-[160px] lg:h-[105px]">
