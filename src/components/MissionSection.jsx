@@ -43,7 +43,7 @@ export default function MissionSection() {
         <div className="text-[35px] font-bold mt-10 xl:px-20 2xl:px-40">
           <Slider {...sliderSettings}>
             <div>
-              <div className="flex flex-col justify-center min-h-[370px] sm:min-h-0 sm:h-[160px] lg:h-[105px]">
+              <div className="flex flex-col justify-center min-h-[370px] sm:min-h-0 sm:h-[160px] xl:h-[105px]">
                 <p>
                   To provide the children with safe accommodation and good
                   nutrition
@@ -51,7 +51,7 @@ export default function MissionSection() {
               </div>
             </div>
             <div>
-              <div className="flex flex-col justify-center min-h-[370px] sm:min-h-0 sm:h-[160px] lg:h-[105px]">
+              <div className="flex flex-col justify-center min-h-[370px] sm:min-h-0 sm:h-[160px] xl:h-[105px]">
                 <p>
                   To have a permanent safe water system to provide clean water
                   for the children and to water the farm
@@ -59,7 +59,7 @@ export default function MissionSection() {
               </div>
             </div>
             <div>
-              <div className="flex flex-col justify-center min-h-[370px] sm:min-h-0 sm:h-[160px] lg:h-[105px]">
+              <div className="flex flex-col justify-center min-h-[370px] sm:min-h-0 sm:h-[160px] xl:h-[105px]">
                 <p>
                   To grow food and introduce the children to sustainable
                   agriculture
@@ -67,7 +67,7 @@ export default function MissionSection() {
               </div>
             </div>
             <div>
-              <div className="flex flex-col justify-center min-h-[370px] sm:min-h-0 sm:h-[160px] lg:h-[105px]">
+              <div className="flex flex-col justify-center min-h-[370px] sm:min-h-0 sm:h-[160px] xl:h-[105px]">
                 <p>
                   To provide better health care for the children by employing a
                   home nurse
@@ -75,7 +75,7 @@ export default function MissionSection() {
               </div>
             </div>
             <div>
-              <div className="flex flex-col justify-center min-h-[370px] sm:min-h-0 sm:h-[160px] lg:h-[105px]">
+              <div className="flex flex-col justify-center min-h-[370px] sm:min-h-0 sm:h-[160px] xl:h-[105px]">
                 <p>
                   To provide schooling within the centre for the younger
                   children, to start their basic education without travel or
@@ -84,7 +84,7 @@ export default function MissionSection() {
               </div>
             </div>
             <div>
-              <div className="flex flex-col justify-center min-h-[370px] sm:min-h-0 sm:h-[160px] lg:h-[105px]">
+              <div className="flex flex-col justify-center min-h-[370px] sm:min-h-0 sm:h-[160px] xl:h-[105px]">
                 <p>
                   To establish computer training for the children for digital
                   literacy and to connect them with the world
@@ -92,12 +92,12 @@ export default function MissionSection() {
               </div>
             </div>
             <div>
-              <div className="flex flex-col justify-center min-h-[370px] sm:min-h-0 sm:h-[160px] lg:h-[105px]">
+              <div className="flex flex-col justify-center min-h-[370px] sm:min-h-0 sm:h-[160px] xl:h-[105px]">
                 <p>To farm in a permaculture way</p>
               </div>
             </div>
             <div>
-              <div className="flex flex-col justify-center min-h-[370px] sm:min-h-0 sm:h-[160px] lg:h-[105px]">
+              <div className="flex flex-col justify-center min-h-[370px] sm:min-h-0 sm:h-[160px] xl:h-[105px]">
                 <p>To become self-sufficient</p>
               </div>
             </div>
