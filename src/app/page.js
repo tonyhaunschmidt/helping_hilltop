@@ -3,7 +3,7 @@ import HomepageHero from "@/components/HomepageHero";
 import MapSection from "@/components/MapSection";
 import QuicklinkSection from "@/components/QuicklinksSection";
 import WelcomeSection from "@/components/WelcomeSection";
-import VisualSection from "@/components/VisualSection";
+import MissionSection from "@/components/MissionSection";
 
 export default function Page() {
   return (
@@ -11,7 +11,7 @@ export default function Page() {
       <HomepageHero />
       <WelcomeSection />
       <QuicklinkSection />
-      {/* <VisualSection /> */}
+      <MissionSection />
       {/* <FacebookSection /> */}
       <MapSection />
     </div>

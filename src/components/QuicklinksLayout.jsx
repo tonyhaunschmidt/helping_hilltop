@@ -9,6 +9,13 @@ import workImage from "../../public/img/work_ql.jpg";
 export default function QuicklinkLayout() {
   const quicklinks = [
     {
+      titleFirst: "MAKE A",
+      titleSecond: "DONATION",
+      subtext: "Find out how to donate and see how we spend the proceeds",
+      image: { img: donationImage, alt: "Donation Quicklink Image" },
+      link: "/donate",
+    },
+    {
       titleFirst: "VIEW OUR",
       titleSecond: "WISHLIST",
       subtext:
@@ -16,13 +23,6 @@ export default function QuicklinkLayout() {
       image: { img: wishlistImage, alt: "Wishlist Quicklink Image" },
       link: "https://www.amazon.co.uk/hz/wishlist/ls/KK6M9TP0QAHR?ref_=wl_share&fbclid=IwAR3i1_uIjaEZwrKgQD_mi0f50lEmkhxagioiLxDw7wPqJ693Oq-TF1O9UGk",
       target: "_blank",
-    },
-    {
-      titleFirst: "MAKE A",
-      titleSecond: "DONATION",
-      subtext: "Find out how to donate and see how we spend the proceeds",
-      image: { img: donationImage, alt: "Donation Quicklink Image" },
-      link: "/donate",
     },
     {
       titleFirst: "FOLLOW US ON",
