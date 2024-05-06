@@ -11,7 +11,7 @@ function SampleNextArrow(props) {
       className={`${className} w-10 z-50 aspect-square hover:cursor-pointer rounded-full bg-logo_green hover:brightness-75  ease-in-out duration-300 transition-all flex items-center justify-center absolute right-1 sm:right-5 lg:right-10 top-[calc(50%-60px)]`}
       onClick={onClick}
     >
-      <span class="material-symbols-outlined text-white text-4xl">
+      <span className="material-symbols-outlined text-white text-4xl">
         chevron_right
       </span>
     </div>
@@ -25,7 +25,7 @@ function SamplePrevArrow(props) {
       className={`${className} w-10 z-50 aspect-square hover:cursor-pointer rounded-full bg-logo_green hover:brightness-75 ease-in-out duration-300 transition-all flex items-center justify-center absolute left-1 sm:left-5 lg:left-10 top-[calc(50%-60px)]`}
       onClick={onClick}
     >
-      <span class="material-symbols-outlined text-white text-4xl">
+      <span className="material-symbols-outlined text-white text-4xl">
         chevron_left
       </span>
     </div>

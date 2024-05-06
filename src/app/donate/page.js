@@ -22,7 +22,7 @@ export default function Page() {
               we can take or post out to Kenya, or buy our clothing from Vinted
               to raise funds. No spare money? We are always looking for clothes,
               unwanted Christmas presents, bric-a-brac or anything we can use
-              for tombola stalls, tabletop sales and raffles. See our “ How much
+              for tombola stalls, tabletop sales and raffles. See our “How much
               do things cost?” page for an idea of where the money goes. Thank
               you so much for your help.
             </p>

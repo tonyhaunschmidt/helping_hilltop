@@ -199,7 +199,7 @@ export default function Page() {
             <p>So, what next? Our main ambitions are:</p>
             <p>
               Building a water irrigation system with water pipes coming from
-              the water butt to irrigate the greenhouse and field, continuing to
+              the water butt to irrigate the greenhouse and field. Continuing to
               grow the farm
             </p>
             <p>Compostable latrines</p>

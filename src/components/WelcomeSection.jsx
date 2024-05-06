@@ -33,15 +33,15 @@ export default function WelcomeSection() {
                 has been done already to help the children with food, water,
                 clothing, education and health but there is still a long way to
                 go. Life is still very basic with the children sleeping on the
-                floor in two huts and only having one meal a day. Fabian has a
-                small farm which is being developed to feed the children and
-                produce excess for sale for other needs. The aim is
+                floor in a brick dormitory and only having one meal a day.
+                Fabian has a small farm which is being developed to feed the
+                children and produce excess for sale for other needs. The aim is
                 self-sufficiency.
               </p>
               <p>
                 Our strength lies not only in the words we stand by, but more
                 importantly in action. From the moment we started our work with
-                Fabian in 2000, we understood that by working together we could
+                Fabian in 2020, we understood that by working together we could
                 help overcome their challenges much more efficiently and that is
                 why we ultimately decided to launch Helping Hilltop. We strive
                 to make a positive change in all our pursuits.

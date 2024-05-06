@@ -67,10 +67,10 @@ export default function Page() {
             <p>
               My grandmother died when I was 7. I grew up in a very poor local
               family. Some of the older children left for early marriages and
-              some got lost in the streets. I decided to try and gather some of
-              the younger children and engage them in farming our ancestral
-              land. This enabled some of us to pay for school tuition in the
-              local public school but not all attended.
+              some got lost in the streets. At age 14 I decided to try and
+              gather some of the younger children and engage them in farming our
+              ancestral land. This enabled some of us to pay for school tuition
+              in the local public school but not all attended.
             </p>
             <p>
               I attribute my full desire to help the orphans to my own
