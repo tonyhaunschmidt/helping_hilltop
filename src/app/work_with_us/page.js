@@ -54,17 +54,6 @@ export default function Page() {
             </p>
           </div>
           <div className="text-[18px] [&>*]:mt-8">
-            <h2 className="text-3xl font-bold text-dark_green">
-              Come with us to Kenya
-            </h2>
-            <p className="!mt-2">
-              In 2025 we will be returning to Hilltop for THE BIG BUILD. We plan
-              to build a dining area and kitchen, a boys dormitory and
-              compostable pit latrines and establish a small fish farm. Come
-              with us and meet the children and help in a really practical way.
-              It will certainly be a rewarding experience you won’t forget.
-              Contact Vivienne if you are interested.
-            </p>
             <p className="font-bold">
               Please contact Vivienne at{" "}
               <a

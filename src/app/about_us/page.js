@@ -62,37 +62,40 @@ export default function Page() {
               community. I witnessed this as I would go with her to her sweet
               potato farm and help her carry the sacks of potatoes. She would
               cook these for the children and also sell some to help us get some
-              personal items.
+              personal items. She provided shelter for the children in some
+              basic buildings on a piece of land belonging to the family-
+              Hilltop.
             </p>
             <p>
-              My grandmother died when I was 7. I grew up in a very poor local
-              family. Some of the older children left for early marriages and
-              some got lost in the streets. At age 14 I decided to try and
-              gather some of the younger children and engage them in farming our
-              ancestral land. This enabled some of us to pay for school tuition
-              in the local public school but not all attended.
+              My grandmother died in my early teenage. Some of the older
+              children left for early marriages and some got lost in the
+              streets. At age 14 I decided to try and gather some of the younger
+              children and engage them in farming our ancestral land. This
+              enabled some of us to pay for school tuition in the local public
+              school but not all attended.
             </p>
             <p>
               I attribute my full desire to help the orphans to my own
-              experience growing up as one and to my grandmother. This made me
-              drop out of school and stop furthering my education as an
+              experience growing up as one myself and to my grandmother. This
+              made me drop out of school and stop furthering my education as an
               elementary teacher. Instead of pursuing a path of personal
               financial security, I began a sustainable agriculture at the age
               of 14 to help the destitute children from the slums of Rodi and
               the entire village. At that time, we had post-election violence in
               Kenya and many children were affected. Some were involved in
               rag-picking, and some in anti-social activities. Some girls were
-              raped in the streets or beaten due to crime. I begun taking
+              raped in the streets or beaten due to crime. I began taking
               orphans off the streets in my village into my own home and doing
               agriculture together.
             </p>
             <p>
               I recruited some local widows to help as more children were
-              brought to me. The widows could carry some potatoes and grains
-              which my grandmother had introduced as indigenous crops. Some of
-              these widows are affected by HIV/AIDS and suffer so much at times,
-              so I offered to always take them to church and offer them
-              spiritual nourishment. I have a very strong Christian faith.
+              brought to me. The widows could help grow and carry some potatoes
+              and grains which my grandmother had introduced as indigenous
+              crops. Some of these widows are affected by HIV/AIDS and suffer so
+              much at times, so I offered to always take them to church and
+              offer them spiritual nourishment. I have a very strong Christian
+              faith.
             </p>
           </div>
           <h2 className="text-3xl mt-8 font-bold text-dark_green">
@@ -120,16 +123,14 @@ export default function Page() {
               I then asked the deal-breaker question; “If I could do anything
               for you what would it be?” I waited for his response. “Sanitary
               products for the girls so they no longer miss school.” From then I
-              knew I would help them in any way I could.
-            </p>
-            <p>
-              Since then, we have raised money and collected items for them by
-              doing tombolas at local markets, bake sales, raffles, collection
-              tins, car boot sales, Vinted sales, dress-down days at school,
-              sponsored walk and fire walk and auction of donated items. We have
-              also had some support from local businesses and pubs, as well as
-              receiving many individual donations. In December, Helping Hilltop
-              was registered as an official charity and the work goes on.
+              knew I would help them in any way I could. Since then, we have
+              raised money and collected items for them by doing tombolas at
+              local markets, bake sales, raffles, collection tins, car boot
+              sales, Vinted sales, dress-down days at school, sponsored walk and
+              fire walk and auction of donated items. We have also had some
+              support from local businesses and pubs, as well as receiving many
+              individual donations. In December, Helping Hilltop was registered
+              as an official charity and the work goes on.
             </p>
             <p>
               I April 2023 I was able to visit Hilltop, along with my son David,
@@ -159,7 +160,8 @@ export default function Page() {
               Hilltop is about helping to improve the lives of 81 orphans cared
               for by Fabian, his wife and a small community who are family. All
               the children are there through no fault of their own. The majority
-              were orphaned through the Aids pandemic.
+              were orphaned through the Aids pandemic but many also through
+              tribal conflicts and violence.
             </p>
             <p>With our support they can achieve anything they want.</p>
           </div>

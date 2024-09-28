@@ -147,8 +147,14 @@ export default function Page() {
             <p>A perimeter fence was constructed</p>
             <p>Money was provided to replace the lost food and other items</p>
             <p>
-              Bunk beds are gradually being provided so the children don’t have
+              Bunk beds are gradually being provided so the children won’t have
               to sleep on the floor
+            </p>
+            <p>
+              JUNE 2024 UPDATE: We were informed that the local government will
+              no longer allow the children to return to Hilltop. The site is too
+              small. We need a new larger site with a newbuild orphanage. This
+              is a huge challenge but one we are still determined to meet.
             </p>
           </div>
           <ImageSlideshow className={"mt-12"} slides={accommodationSlides} />
@@ -177,6 +183,7 @@ export default function Page() {
               Christmas treats and a goat for Christmas dinner – the only meat
               all year
             </p>
+            <p>Toys and communal games gifted in June 2024</p>
           </div>
           <ImageSlideshow className={"mt-12"} slides={playSlides} />
           <h2 className="text-3xl mt-8 font-bold text-dark_green">OTHER</h2>
@@ -199,9 +206,10 @@ export default function Page() {
             <p>So, what next? Our main ambitions are:</p>
             <p>
               Building a water irrigation system with water pipes coming from
-              the water butt to irrigate the greenhouse and field. Continuing to
-              grow the farm
+              the water butt to irrigate the greenhouse and field.{" "}
+              <span className="text-red-500">(COMPLETED AUGUST 2024)</span>
             </p>
+            <p>Continuing to grow the farm</p>
             <p>Compostable latrines</p>
             <p>
               A covered dining and cooking area – hopefully the big build in
@@ -214,7 +222,10 @@ export default function Page() {
             </p>
             <p>Continuing to support the children’s education – more laptops</p>
             <p>A vehicle for Fabian</p>
-            <p>To make a fish farm on the compound</p>
+            <p>
+              To make a fish farm on the compound{" "}
+              <span className="text-red-500">(STARTED SEPTEMBER 2024)</span>
+            </p>
           </div>
         </div>
       </Container>

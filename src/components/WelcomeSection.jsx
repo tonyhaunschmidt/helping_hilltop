@@ -27,16 +27,35 @@ export default function WelcomeSection() {
                 Helping Hilltop is a small charity started in December 2023
                 following 3 years of private fundraising and donations by
                 Vivienne Hannah along with family and friends, to help support
-                Hilltop Christian Orphanage, home to 81 orphans, aged 5-18 in
-                Godako, Homabay County in Kenya. It is run by Fabian Olouch and
-                his wife Vivien with the support of the local community. Much
-                has been done already to help the children with food, water,
-                clothing, education and health but there is still a long way to
-                go. Life is still very basic with the children sleeping on the
-                floor in a brick dormitory and only having one meal a day.
+                Hilltop Christian Centre, which is home to 81 orphans, aged 5-18
+                in Godako, Homabay County in Kenya. It is run by Fabian Olouch
+                and his wife Vivien with the support of the local community.
                 Fabian has a small farm which is being developed to feed the
                 children and produce excess for sale for other needs. The aim is
                 self-sufficiency.
+              </p>
+              <p>
+                In 2021 the buildings that the children slept in were subject to
+                an arson attack and became uninhabitable. The children were all
+                taken in by Fabian and many local widows. Fabian does really
+                well in supporting the children and the widows. They get
+                together at weekends and remain a big family. The charity has
+                been working hard to repair the building and adhere to local
+                regulations – the building was repaired, bunk beds were bought,
+                and a perimeter fence put up. We thought we were vey nearly
+                ready to welcome the children back but received very difficult
+                news from Government officials whilst visiting Hilltop in June
+                2024. Due to a new law, they would no longer allow the children
+                to return to Hilltop as the site is too small. They insist on a
+                newbuild on a bigger piece of land, a huge mountain for us to
+                climb. This is still our long- term aim. The priority meantime
+                is to develop the farm to help support the children and the
+                widows while also fundraising for the new orphanage.
+              </p>
+              <p>
+                Much has been done already to help the children with food,
+                water, clothing, education and health but there is still a long
+                way to go.
               </p>
               <p>
                 Our strength lies not only in the words we stand by, but more
