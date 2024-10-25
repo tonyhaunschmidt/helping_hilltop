@@ -27,7 +27,7 @@ export default function Page() {
             <p>
               Our strength lies not only in the words we stand by, but more
               importantly in action. From the moment we started our work with
-              Fabian in 2000, we understood that by working together we could
+              Fabian in 2021, we understood that by working together we could
               help overcome their challenges much more efficiently and that is
               why we ultimately decided to launch Helping Hilltop. We strive to
               make a positive change in all our pursuits.
