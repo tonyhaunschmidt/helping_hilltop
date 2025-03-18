@@ -1,13 +1,6 @@
-"use client";
 import Container from "@/components/Container";
-import { useEffect, useState } from "react";
 
 export default function Page() {
-  const [doPaypal, setDoPaypal] = useState(false);
-  useEffect(() => {
-    setDoPaypal(true);
-  }, []);
-
   return (
     <main className="pb-12 pt-20 min-h-[calc(100vh-266px)]">
       <Container>
@@ -44,7 +37,7 @@ export default function Page() {
               in if you wish.
             </p>
             <a
-              href="https://www.paypal.com/donate/?hosted_button_id=G5XRATWN5SVMY"
+              href="https://www.paypal.com/donate/?hosted_button_id=BM8F853TACTBU"
               target="_blank"
               className="mt-6 block rounded-xl w-fit bg-white border border-logo_green text-logo_grey px-6 py-2 hover:border-logo_green hover:bg-dark_green hover:text-white ease-in-out duration-300 transition-all"
             >
